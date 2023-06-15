@@ -1,0 +1,16 @@
+C:\Users\LENOVO\source\repos\Work_App\Work_App\bin\Debug\net5.0\Work_App.exe
+C:\Users\LENOVO\source\repos\Work_App\Work_App\bin\Debug\net5.0\Work_App.deps.json
+C:\Users\LENOVO\source\repos\Work_App\Work_App\bin\Debug\net5.0\Work_App.runtimeconfig.json
+C:\Users\LENOVO\source\repos\Work_App\Work_App\bin\Debug\net5.0\Work_App.runtimeconfig.dev.json
+C:\Users\LENOVO\source\repos\Work_App\Work_App\bin\Debug\net5.0\Work_App.dll
+C:\Users\LENOVO\source\repos\Work_App\Work_App\bin\Debug\net5.0\ref\Work_App.dll
+C:\Users\LENOVO\source\repos\Work_App\Work_App\bin\Debug\net5.0\Work_App.pdb
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.csproj.AssemblyReference.cache
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.AssemblyInfoInputs.cache
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.AssemblyInfo.cs
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.dll
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\ref\Work_App.dll
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.pdb
+C:\Users\LENOVO\source\repos\Work_App\Work_App\obj\Debug\net5.0\Work_App.genruntimeconfig.cache
