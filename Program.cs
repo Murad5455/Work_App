@@ -106,6 +106,7 @@ namespace HumanResourceManagementSystem
 
         public void AddEmployee(string departmentName, string employeeNo, string fullname, string position, decimal salary)
         {
+
             Department department = Departments.Find(d => d.Name == departmentName);
             if (department == null)
             {
@@ -125,18 +126,53 @@ namespace HumanResourceManagementSystem
                 return;
             }
 
+            int startingNo = 1000; // İşçi numarasının başlangıç değeri
             string departmentCode = department.Name.Substring(0, 2).ToUpper();
-            Employee employee = department.Employees.Find(e => e.No == employeeNo);
+            string formattedNo = (startingNo + int.Parse(employeeNo)).ToString(); // İşçi numarasını şekillendirme
+            Employee employee = department.Employees.Find(e => e.No == formattedNo);
             if (employee != null)
             {
                 Console.WriteLine("Bu işçi nömresine malik işçi artıq mövcuddur.");
                 return;
             }
 
-            employee = new Employee(departmentCode + employeeNo, fullname, position, salary);
+            employee = new Employee(departmentCode + formattedNo, fullname, position, salary);
             department.Employees.Add(employee);
             Console.WriteLine("İşçi uğurla elave edildi.");
-        }
+        
+    
+
+        //Department department = Departments.Find(d => d.Name == departmentName);
+        //if (department == null)
+        //{
+        //    Console.WriteLine("Bu adda heç bir şöbe tapılmadı.");
+        //    return;
+        //}
+
+        //if (department.Employees.Count >= department.EmployeeLimit)
+        //{
+        //    Console.WriteLine("İdarenin işçilerinin sayı heddinə çatıb.");
+        //    return;
+        //}
+
+        //if (department.CalcSalaryAverage() + salary > department.SalaryLimit)
+        //{
+        //    Console.WriteLine("Departamentin orta emək haqqı onun heddini keçecək.");
+        //    return;
+        //}
+
+        //string departmentCode = department.Name.Substring(0, 2).ToUpper();
+        //Employee employee = department.Employees.Find(e => e.No == employeeNo);
+        //if (employee != null)
+        //{
+        //    Console.WriteLine("Bu işçi nömresine malik işçi artıq mövcuddur.");
+        //    return;
+        //}
+
+        //employee = new Employee(departmentCode + employeeNo, fullname, position, salary);
+        //department.Employees.Add(employee);
+        //Console.WriteLine("İşçi uğurla elave edildi.");
+    }
 
         public void RemoveEmployee(string departmentName, string employeeNo)
         {
